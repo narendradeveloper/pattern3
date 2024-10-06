@@ -1,0 +1,33 @@
+rows=4
+for(i=1;i<=rows;i++){
+    num=1
+    res=""
+    for(j=1;j<=i;j++){
+    res=num+" "+res
+    num++
+    }
+    console.log(res)
+}
+  out put:
+1 
+2 1 
+3 2 1 
+4 3 2 1 
+
+
+rows=prompt("enter the NOof rows:")
+for(i=1;i<=rows;i++){
+    num=i*2
+    res=""
+    for(j=0;j<i;j++){
+        res+=(num+j*4)+" "
+    }
+    console.log(res)
+}
+
+   out put
+enter the NOof rows:4
+2 
+4 8 
+6 10 14 
+8 12 16 20 
